@@ -5,7 +5,7 @@
 git clone https://gitee.com/bigide/bigide-flowx
 
 # 进入项目目录
-cd ruoyi-ui
+cd flowx-ui
 
 # 安装依赖
 npm install
