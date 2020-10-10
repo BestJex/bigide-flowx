@@ -1,5 +1,7 @@
 # bigide-flowx
 
+基于 [若依前后分离版](https://gitee.com/y_project/RuoYi-Vue) 开发
+感谢 若依
 # 开源调度系统列表
 
 ## azkaban  https://github.com/azkaban/azkaban
@@ -14,7 +16,7 @@
 
 
 # 授权协议
-Copyright 2017-2019 BIGIDE  bigide.com.
+Copyright 2017-2019 BIGIDE bigide.com.
 
 Licensed under the GNU General Public License v3.0 (the "License");
 you may not use this file except in compliance with the License.
