@@ -208,7 +208,7 @@
         <module>flowx-agent</module>
         <module>flowx-grpc</module>
         <module>flowx-ui</module>
-
+        <module>flowx-docs</module>
     </modules>
     <packaging>pom</packaging>
 

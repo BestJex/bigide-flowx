@@ -7,14 +7,7 @@
     <div class="right-menu">
       <template v-if="device!=='mobile'">
         <search id="header-search" class="right-menu-item" />
-        
-        <el-tooltip content="源码地址" effect="dark" placement="bottom">
-          <ruo-yi-git id="ruoyi-git" class="right-menu-item hover-effect" />
-        </el-tooltip>
 
-        <el-tooltip content="文档地址" effect="dark" placement="bottom">
-          <ruo-yi-doc id="ruoyi-doc" class="right-menu-item hover-effect" />
-        </el-tooltip>
 
         <screenfull id="screenfull" class="right-menu-item hover-effect" />
 
@@ -52,8 +45,6 @@ import Hamburger from '@/components/Hamburger'
 import Screenfull from '@/components/Screenfull'
 import SizeSelect from '@/components/SizeSelect'
 import Search from '@/components/HeaderSearch'
-import RuoYiGit from '@/components/RuoYi/Git'
-import RuoYiDoc from '@/components/RuoYi/Doc'
 
 export default {
   components: {
@@ -61,9 +52,7 @@ export default {
     Hamburger,
     Screenfull,
     SizeSelect,
-    Search,
-    RuoYiGit,
-    RuoYiDoc
+    Search
   },
   computed: {
     ...mapGetters([
@@ -104,14 +93,14 @@ export default {
 
 <style lang="scss" scoped>
 .navbar {
-  height: 50px;
+  height: 38px;
   overflow: hidden;
   position: relative;
   background: #fff;
   box-shadow: 0 1px 4px rgba(0,21,41,.08);
 
   .hamburger-container {
-    line-height: 46px;
+    line-height: 38px;
     height: 100%;
     float: left;
     cursor: pointer;
@@ -135,7 +124,7 @@ export default {
   .right-menu {
     float: right;
     height: 100%;
-    line-height: 50px;
+    line-height: 38px;
 
     &:focus {
       outline: none;
@@ -163,13 +152,13 @@ export default {
       margin-right: 30px;
 
       .avatar-wrapper {
-        margin-top: 5px;
+        margin-top: 1px;
         position: relative;
 
         .user-avatar {
           cursor: pointer;
-          width: 40px;
-          height: 40px;
+          width: 36px;
+          height: 36px;
           border-radius: 10px;
         }
 
